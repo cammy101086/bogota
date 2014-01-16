@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Font Properties*/
+	body, h3, h4, h5, h6, h7, h8, p, ul, ol, footer {
+/*	font-family: 16px; 
+*/	
+	font:"Comic Sans MS", cursive;
+	text-align:left;
+	font:16px;}
+	
+	h1, h2 {
+	text-align:center;
+	text-shadow: 5px 5px 5px #666;
+	font-size:30px;
+}
+	h2 {
+	text-align:center;
+	text-shadow: 5px 5px 5px #666;
+	font-size:20px;
+}
+
+
+/*Font Properties end*/
+
+/*Navigation Link Properties*/
+nav li {
+	display:inline;
+	padding:20px;
+	text-align:right;
+	
+}
+a:hover{
+	color:#F00
+	}
+a:visited{
+	color: #03C
+}
+
+/*Navigation Link Properties end*/
+
+body {min-width: 996px;
+background-image:url(../images/colombiacafe.jpg);
+	
+	
+}
+
+
+/*container border*/
+.container {border:medium double red;
+background-color:white;
+padding:20px;
+margin-left: auto;
+margin-right: auto;
+width: 996px;
+}
+
+
+/*end of container border*/
+
+/*button*/
+article{
+
+	padding: 1%;
+	border: 2px solid;
+	border-radius:25px;
+	width: 180px;
+	text-align:center;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.01) 56%, rgba(0,0,0,0) 57%);
+	overflow:hidden;
+	
+	margin: 50px;
+}
+/*button end*/
+
+/*ul Properties*/
+ul {
+	list-style:decimal;}
+	
+	
+/*ul properties end*/
+
+	
+/*properties for 1st and 2nd paragraph*/
+.firstp img {
+	float:right;
+	padding:10px;
+}
+
+
+.secondp img {
+	float:left;
+	padding:10px;
+}
+
+.firstp {
+	background: #FFC;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: hidden;}
+	
+.secondp {
+	background: #FFC;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: hidden;}
+/*end of images for 1st and 2nd*/
+
+
+/*gallery properties*/
+/*.gallery {
+	background:#06C;}
+*/	
+.gallery ul li{ display: inline;
+padding:5px;
+}
+
+img
+{
+opacity:0.9;
+
+}
+img:hover
+{
+opacity:1.0;
+}
+
+/*colmns*/
+.leftparagraph{
+/*	background:#CF6;
+*/	width:330px;
+	float:left;
+	height:150px;
+	padding-right:2px;
+
+	}
+	
+.middleparagraph{
+/*	background: #6CF;
+*/	float: left;
+	width: 330px;
+	height:150px;
+
+	}
+	
+.rightparagraph{
+/*	background: #F39;
+*/	float: right;
+	width:330px;
+	height:150px;
+	}		
+	
+	
+footer {padding-top:30px;
+text-align:center;
+}
