@@ -156,8 +156,51 @@ opacity:1.0;
 	height: 15.12096774%; /*150px;*/
 	}		
 	
+/*table info*/
+.table_info {
+	float:left;
+	clear: both;
 	
-footer {padding-top:20%; 
+	}
+
+table{
+	border-collapse:collapse;
+	border: 0.062em solid #000;
+	margin-bottom:10%;
+	padding-top:15%;
+	
+	}
+	
+td{
+	border: 0.062em solid #000;
+	padding: 0.6em;
+	}	
+	
+th {
+	background-color: #fff;
+	
+	}	
+	
+/*form.......................*/
+
+form{
+	float: left;
+	clear: left;
+	margin-bottom:10%;
+
+	}
+input{
+	display: block;
+	}	
+
+
+/*end of table css*/
+	
+footer {
+float: left;
+width:75%; /*600px / 800px*/
+
+padding-top: 5%; 
 text-align:center;
 }
 
@@ -174,15 +217,13 @@ text-align:center;
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		nav li { display: compact; width:90%; text-align:center;}
 		.leftparagraph, .middleparagraph, .rightparagraph {display:block; width:100%;}
-		body { background-image:none; background-color:#FFF;}
-		.gallery { display:none;}
+		body { background-image:none; background-color:#FFC;}
 		}
 		
 /* Media Portrait size to Mobile Lanscape size (devices and browsers)*/
 	@media only screen and (max-width:479px) {
-		img { display:none;}
 		article { display:none;}
 		.leftparagraph, .middleparagraph, .rightparagraph {display:block; width:100%;}
 		nav li { display:block; width:90%; text-align:center;}
-		body { background-image:none; background-color:#FFF;}
+		body { background-image:none; background-color:#FFc;}
 		}
